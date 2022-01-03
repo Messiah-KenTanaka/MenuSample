@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuListOptionTeishoku"
+        app:showAsAction="never"
+        android:title="@string/menu_list_options_teishoku"/>
+
+    <item
+        android:id="@+id/menuListOptionCurry"
+        app:showAsAction="never"
+        android:title="@string/menu_list_options_curry"/>
+
+    <item
+        android:id="@+id/menuListOptionTanaka"
+        app:showAsAction="ifRoom"
+        android:title="tanaka"/>
+</menu>
